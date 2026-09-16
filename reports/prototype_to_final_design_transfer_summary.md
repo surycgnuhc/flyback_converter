@@ -42,18 +42,18 @@
 Images below are stored in the `supporting-images/` folder alongside this report — keep them together for the links to resolve.
 
 **MOSFET selection (MCQ15N10YA-TP):**
-![Digi-Key attribute table](supporting-images/03_mosfet_digikey_attributes.png)
-![Dynamic characteristics table](supporting-images/04_mosfet_dynamic_characteristics.png)
-![Rds(on) validation log](supporting-images/05_rds_on_validation_log.png)
+![Digi-Key attribute table](images/03_mosfet_digikey_attributes.png)
+![Dynamic characteristics table](images/04_mosfet_dynamic_characteristics.png)
+![Rds(on) validation log](images/05_rds_on_validation_log.png)
 
 **Snubber derivation (4-formula method):**
-![Rsn formula](supporting-images/06_snubber_formula_resistor.png)
-![Psn / Csn formulas](supporting-images/07_snubber_formula_power_cap.png)
-![Dsn selection criteria](supporting-images/08_snubber_formula_diode.png)
-![Damping reference (critically damped vs underdamped)](supporting-images/09_snubber_damping_reference.png)
+![Rsn formula](images/06_snubber_formula_resistor.png)
+![Psn / Csn formulas](images/07_snubber_formula_power_cap.png)
+![Dsn selection criteria](images/08_snubber_formula_diode.png)
+![Damping reference (critically damped vs underdamped)](images/09_snubber_damping_reference.png)
 
 **Final validated result:**
-![Final schematic with snubber](supporting-images/10_final_snubber_schematic.png)
-![Validated clamp waveform — 29.45V vs 30V target](supporting-images/11_validated_clamp_waveform.png)
+![Final schematic with snubber](images/10_final_snubber_schematic.png)
+![Validated clamp waveform — 29.45V vs 30V target](images/11_validated_clamp_waveform.png)
 
-**Supporting file:** `flyback_prototype.asc` — the validated LTspice schematic (switch, snubber, rectification, transformer with explicit leakage inductance).
+**Supporting file:** `flyback.asc` — the validated LTspice schematic (switch, snubber, rectification, transformer with explicit leakage inductance).
