@@ -39,6 +39,8 @@ The final version will use a universal AC input with a bridge rectifier, bulk ca
 
 ## Project Status
 
+Currently paralleling the design process between kicad and ltspice simulation 
+
 ### Low-Voltage Flyback Development
 
 * [ ] Low-voltage input stage — 24 VDC

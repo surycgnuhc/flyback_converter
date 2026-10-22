@@ -4,6 +4,13 @@
 *.op.raw
 *.net
 
+# KiCad junk
+.history/
+*-backups/
+fp-info-cache
+*.lck
+*.kicad_prl
+
 # OS files
 .DS_Store
 Thumbs.db
